@@ -1,24 +1,38 @@
 .navBar {
     margin: 5px;
     border-radius: 0.5rem;
-    border: solid 2px #001600;
+    border: solid 1px #001600;
     background-color: rgb(247, 244, 244);
+    width: 600px;
 }
 
-.ulNav {
-    font-size: 20px;
+.divNav {
+    font-size: 18px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .listaNav {
-    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    margin: 0px 20px;
+}
+
+.rutas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0px 20px;
 }
 
 .estiloListado {
